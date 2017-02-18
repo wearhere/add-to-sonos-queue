@@ -1,10 +1,7 @@
 'use strict';
 
 var Q = require('Q');
-var request = require('browser-request');
-var Sonos = require('sonos').Sonos;
 
-var SC_CLIENT_ID = '23e4216436888333b85bec82a5e7c075';
 var CURRENT_ITEM = null;
 
 var gotSoundCloudUrl = function(url) {
