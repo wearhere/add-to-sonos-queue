@@ -1,3 +1,4 @@
 dist/*
 node_modules/
 add-to-sonos-queue.zip
+*.sublime-workspace
